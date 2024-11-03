@@ -218,7 +218,7 @@ SELECT title AS PeliculasComedia
     JOIN actor ON film_actor.actor_id = actor.actor_id  -- se obtiene información de los actores
     WHERE actor.actor_id != actor.actor_id
     GROUP BY actor_id
-		HAVING NumeroPelisJuntXs >= 1;    -- CON UNA CTE?????? REVISAR
+		HAVING NumeroPelisJuntXs >= 1;    
         
 
         
